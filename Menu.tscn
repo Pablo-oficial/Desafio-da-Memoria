@@ -1,14 +1,14 @@
 [gd_scene load_steps=11 format=2]
 
-[ext_resource path="res://fontes/comic-sans-ms-4.ttf" type="DynamicFontData" id=1]
-[ext_resource path="res://freegui/background/background1.jpg" type="Texture" id=2]
-[ext_resource path="res://freegui/svg/Button.png" type="Texture" id=3]
-[ext_resource path="res://freegui/svg/botaoFigurinhas.png" type="Texture" id=4]
-[ext_resource path="res://freegui/svg/botaoOpcoes.png" type="Texture" id=5]
-[ext_resource path="res://freegui/svg/botaoJogar.png" type="Texture" id=6]
-[ext_resource path="res://freegui/svg/botaoSom.png" type="Texture" id=7]
-[ext_resource path="res://freegui/svg/botaoInfo.png" type="Texture" id=8]
-[ext_resource path="res://freegui/svg/home.png" type="Texture" id=9]
+[ext_resource path="res://assets/fontes/comic-sans-ms-4.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://assets/gui/background/background1.jpg" type="Texture" id=2]
+[ext_resource path="res://assets/gui/botao/botaoContinuar.png" type="Texture" id=3]
+[ext_resource path="res://assets/gui/botao/botaoFigurinhas.png" type="Texture" id=4]
+[ext_resource path="res://assets/gui/botao/botaoOpcoes.png" type="Texture" id=5]
+[ext_resource path="res://assets/gui/botao/botaoJogar.png" type="Texture" id=6]
+[ext_resource path="res://assets/gui/botao/botaoSom.png" type="Texture" id=7]
+[ext_resource path="res://assets/gui/botao/botaoInfo.png" type="Texture" id=8]
+[ext_resource path="res://assets/gui/botao/botaoHome.png" type="Texture" id=9]
 
 [sub_resource type="DynamicFont" id=1]
 size = 60
