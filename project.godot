@@ -8,16 +8,32 @@
 
 config_version=4
 
+_global_script_classes=[ {
+"base": "TextureButton",
+"class": "Carta",
+"language": "GDScript",
+"path": "res://Carta.gd"
+} ]
+_global_script_class_icons={
+"Carta": ""
+}
+
 [application]
 
 config/name="Desafio da Memoria"
 run/main_scene="res://Menu.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+GerenciadorGame="*res://GerenciadorGame.gd"
+
 [display]
 
 window/size/width=720
 window/size/height=1280
+window/size/test_width=360
+window/size/test_height=640
 window/handheld/orientation="portrait"
 
 [gui]

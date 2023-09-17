@@ -28,14 +28,14 @@ texture = ExtResource( 2 )
 expand = true
 
 [node name="Principal" type="VBoxContainer" parent="."]
-anchor_left = 0.504
-anchor_top = 0.93
-anchor_right = 0.504
-anchor_bottom = 0.93
-margin_left = -334.88
-margin_top = -1008.4
-margin_right = 331.12
-margin_bottom = -80.4001
+anchor_left = 0.039
+anchor_top = 0.142
+anchor_right = 0.964
+anchor_bottom = 0.867
+margin_left = -0.0799999
+margin_top = 0.23999
+margin_right = -0.0800171
+margin_bottom = 0.239868
 
 [node name="info" type="Label" parent="Principal"]
 margin_right = 666.0
@@ -54,48 +54,63 @@ margin_bottom = 265.0
 alignment = 1
 
 [node name="opcoesSuperiores" type="HBoxContainer" parent="."]
-anchor_left = 0.5
-anchor_top = 0.068
-anchor_right = 0.5
-anchor_bottom = 0.068
-margin_left = 56.0
-margin_top = -42.04
-margin_right = 341.0
-margin_bottom = 79.96
+anchor_left = 0.61
+anchor_top = 0.035
+anchor_right = 0.946
+anchor_bottom = 0.107
+margin_left = -0.200012
+margin_top = 0.200001
+margin_right = -0.120056
+margin_bottom = 0.0399933
 
 [node name="info" type="Button" parent="."]
-margin_left = 442.0
-margin_top = 27.0
-margin_right = 550.0
-margin_bottom = 149.0
+anchor_left = 0.614
+anchor_top = 0.021
+anchor_right = 0.764
+anchor_bottom = 0.116
+margin_left = -0.0800171
+margin_top = 0.119999
+margin_right = -0.0800171
+margin_bottom = 0.519989
 icon = ExtResource( 8 )
 flat = true
 expand_icon = true
 
 [node name="som" type="Button" parent="."]
-margin_left = 572.0
-margin_top = 32.0
-margin_right = 685.0
-margin_bottom = 154.0
+anchor_left = 0.794
+anchor_top = 0.025
+anchor_right = 0.951
+anchor_bottom = 0.12
+margin_left = 0.320007
+margin_right = 0.279968
+margin_bottom = 0.399994
 icon = ExtResource( 7 )
 flat = true
 expand_icon = true
 
 [node name="continuar" type="Button" parent="."]
-margin_left = 222.0
-margin_top = 543.0
-margin_right = 513.0
-margin_bottom = 672.0
+anchor_left = 0.308
+anchor_top = 0.424
+anchor_right = 0.712
+anchor_bottom = 0.525
+margin_left = 0.239975
+margin_top = 0.279968
+margin_right = 0.359985
+margin_bottom = -6.10352e-05
 icon = ExtResource( 3 )
 flat = true
 icon_align = 1
 expand_icon = true
 
 [node name="jogar" type="Button" parent="."]
-margin_left = 226.0
-margin_top = 679.0
-margin_right = 517.0
-margin_bottom = 808.0
+anchor_left = 0.314
+anchor_top = 0.53
+anchor_right = 0.718
+anchor_bottom = 0.631
+margin_left = -0.0800018
+margin_top = 0.599976
+margin_right = 0.039978
+margin_bottom = 0.319946
 rect_pivot_offset = Vector2( -278, 129 )
 icon = ExtResource( 6 )
 flat = true
@@ -103,30 +118,42 @@ icon_align = 1
 expand_icon = true
 
 [node name="opcoes" type="Button" parent="."]
-margin_left = 233.0
-margin_top = 815.0
-margin_right = 524.0
-margin_bottom = 944.0
+anchor_left = 0.324
+anchor_top = 0.637
+anchor_right = 0.728
+anchor_bottom = 0.737
+margin_left = -0.279999
+margin_top = -0.360046
+margin_right = -0.160034
+margin_bottom = 0.639954
 icon = ExtResource( 5 )
 flat = true
 icon_align = 1
 expand_icon = true
 
 [node name="figurinhas" type="Button" parent="."]
-margin_left = 233.0
-margin_top = 953.0
-margin_right = 524.0
-margin_bottom = 1082.0
+anchor_left = 0.324
+anchor_top = 0.745
+anchor_right = 0.728
+anchor_bottom = 0.845
+margin_left = -0.279999
+margin_top = -0.600098
+margin_right = -0.160034
+margin_bottom = 0.399902
 icon = ExtResource( 4 )
 flat = true
 icon_align = 1
 expand_icon = true
 
 [node name="home" type="Button" parent="."]
-margin_left = 326.0
-margin_top = 1132.0
-margin_right = 440.0
-margin_bottom = 1243.0
+anchor_left = 0.453
+anchor_top = 0.884
+anchor_right = 0.611
+anchor_bottom = 0.971
+margin_left = -0.160004
+margin_top = 0.47998
+margin_right = 0.0799866
+margin_bottom = 0.119873
 icon = ExtResource( 9 )
 flat = true
 expand_icon = true
