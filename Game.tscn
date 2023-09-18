@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://assets/fontes/crayon kids.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://Game.gd" type="Script" id=2]
@@ -7,6 +7,7 @@
 [ext_resource path="res://assets/gui/botao/botaoSom.png" type="Texture" id=5]
 [ext_resource path="res://assets/gui/botao/botaoInfo.png" type="Texture" id=6]
 [ext_resource path="res://assets/gui/background/background1.jpg" type="Texture" id=7]
+[ext_resource path="res://assets/gui/botao/botaoSomOff.png" type="Texture" id=8]
 
 [sub_resource type="DynamicFont" id=1]
 size = 60
@@ -35,7 +36,10 @@ expand = true
 anchor_top = 0.141
 anchor_right = 1.0
 anchor_bottom = 1.0
+margin_left = 10.0
 margin_top = 0.519989
+margin_right = -10.0
+margin_bottom = -20.0
 columns = 3
 
 [node name="info" type="Button" parent="."]
@@ -48,19 +52,6 @@ margin_top = 0.399998
 margin_right = 0.159973
 margin_bottom = 0.519989
 icon = ExtResource( 6 )
-flat = true
-expand_icon = true
-
-[node name="som" type="Button" parent="."]
-anchor_left = 0.822
-anchor_top = 0.025
-anchor_right = 0.983
-anchor_bottom = 0.107
-margin_left = 0.159973
-margin_top = -1.0
-margin_right = 0.23999
-margin_bottom = 2.03999
-icon = ExtResource( 5 )
 flat = true
 expand_icon = true
 
@@ -102,3 +93,16 @@ custom_fonts/font = SubResource( 2 )
 text = "0"
 align = 1
 valign = 1
+
+[node name="som" type="TextureButton" parent="."]
+anchor_left = 0.815
+anchor_top = 0.027
+anchor_right = 0.95
+anchor_bottom = 0.107
+margin_left = 0.199951
+margin_top = 0.439999
+margin_right = -6.10352e-05
+margin_bottom = 0.0399933
+texture_normal = ExtResource( 5 )
+texture_pressed = ExtResource( 8 )
+expand = true

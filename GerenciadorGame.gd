@@ -65,6 +65,8 @@ func adicionarDeck():
 		n += 1
 	
 func colocarCartas():
+	var time = Time.get_time_dict_from_system()
+	seed(time.hash())
 	deck.shuffle()
 	var c = 0
 	while c < deck.size():
@@ -105,3 +107,5 @@ func matchCartas():
 	if par == pares:
 		var tela = telaVencer.instance()
 		Game.add_child(tela)
+		Game = null
+		_ready()

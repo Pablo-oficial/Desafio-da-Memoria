@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=2]
+[gd_scene load_steps=13 format=2]
 
 [ext_resource path="res://assets/fontes/comic-sans-ms-4.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://assets/gui/background/background1.jpg" type="Texture" id=2]
@@ -10,6 +10,7 @@
 [ext_resource path="res://assets/gui/botao/botaoInfo.png" type="Texture" id=8]
 [ext_resource path="res://assets/gui/botao/botaoHome.png" type="Texture" id=9]
 [ext_resource path="res://Menu.gd" type="Script" id=10]
+[ext_resource path="res://assets/gui/botao/botaoSomOff.png" type="Texture" id=11]
 
 [sub_resource type="DynamicFont" id=1]
 size = 60
@@ -21,6 +22,9 @@ font_data = ExtResource( 1 )
 anchor_right = 1.0
 anchor_bottom = 1.0
 script = ExtResource( 10 )
+__meta__ = {
+"_edit_horizontal_guides_": [  ]
+}
 
 [node name="Background" type="TextureRect" parent="."]
 modulate = Color( 0.545098, 0.454902, 0.454902, 1 )
@@ -75,18 +79,6 @@ margin_top = 0.120003
 margin_right = 0.359985
 margin_bottom = 0.519974
 icon = ExtResource( 8 )
-flat = true
-expand_icon = true
-
-[node name="som" type="Button" parent="."]
-anchor_left = 0.794
-anchor_top = 0.025
-anchor_right = 0.965
-anchor_bottom = 0.112
-margin_left = 10.32
-margin_right = 0.199951
-margin_bottom = 0.639999
-icon = ExtResource( 7 )
 flat = true
 expand_icon = true
 
@@ -160,3 +152,16 @@ margin_bottom = 0.119873
 icon = ExtResource( 9 )
 flat = true
 expand_icon = true
+
+[node name="som" type="TextureButton" parent="."]
+anchor_left = 0.815
+anchor_top = 0.027
+anchor_right = 0.95
+anchor_bottom = 0.107
+margin_left = 0.199951
+margin_top = 0.439999
+margin_right = -6.10352e-05
+margin_bottom = 0.0399933
+texture_normal = ExtResource( 7 )
+texture_pressed = ExtResource( 11 )
+expand = true
