@@ -87,7 +87,7 @@ margin_right = 0.159973
 margin_bottom = 0.279991
 
 [node name="tempo" type="Label" parent="painelTempo"]
-margin_right = 197.0
+margin_right = 196.0
 margin_bottom = 60.0
 custom_fonts/font = SubResource( 1 )
 text = "TEMPO"
@@ -96,7 +96,7 @@ valign = 1
 
 [node name="segundos" type="Label" parent="painelTempo"]
 margin_top = 64.0
-margin_right = 197.0
+margin_right = 196.0
 margin_bottom = 144.0
 custom_fonts/font = SubResource( 2 )
 text = "0"

@@ -1,0 +1,42 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://assets/gui/background/background1.jpg" type="Texture" id=1]
+[ext_resource path="res://assets/fontes/comic-sans-ms-4.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://assets/gui/botao/botaoJogar.png" type="Texture" id=3]
+
+[sub_resource type="DynamicFont" id=1]
+size = 90
+outline_size = 7
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 2 )
+
+[node name="telaVencer" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="TextureRect" type="TextureRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = ExtResource( 1 )
+expand = true
+
+[node name="Label" type="Label" parent="."]
+anchor_top = 0.132
+anchor_right = 1.0
+anchor_bottom = 0.428
+margin_top = 0.0400085
+margin_right = -2.0
+margin_bottom = 0.159973
+custom_fonts/font = SubResource( 1 )
+text = "Parabéns
+Você Venceu!"
+align = 1
+valign = 1
+
+[node name="TextureButton" type="TextureButton" parent="."]
+margin_left = 225.0
+margin_top = 873.0
+margin_right = 529.0
+margin_bottom = 1000.0
+texture_normal = ExtResource( 3 )
+expand = true

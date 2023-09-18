@@ -1,6 +1,6 @@
 extends Node
 
-onready var Game = get_node('/root/Game/')
+onready var Game
 
 var deck = Array()
 
@@ -11,6 +11,7 @@ var carta1
 var carta2
 var par = 0
 var pares = 6
+
 var segundos = Timer.new()
 var tempo = 0
 var tempoLabel
@@ -18,11 +19,15 @@ var tempoLabel
 var tempoMatch = Timer.new()
 var virarTempo = Timer.new()
 
+var telaVencer = preload("res://TelaVencer.tscn")
+
 func _ready():
-	adicionarDeck()
-	colocarCartas()
-	configurarTempo()
-	exibir()
+	Game = get_node('/root/Game')
+	if Game:
+		adicionarDeck()
+		colocarCartas()
+		configurarTempo()
+		exibir()
 
 func exibir():
 	tempoLabel = Game.get_node('painelTempo/segundos')
@@ -93,3 +98,6 @@ func matchCartas():
 	carta2.set_modulate(Color(0.6,0.6,0.6,0.5))
 	carta1 = null
 	carta2 = null
+	if par == pares:
+		var tela = telaVencer.instance()
+		Game.add_child(tela)
