@@ -64,14 +64,14 @@ margin_right = -0.120056
 margin_bottom = 0.0399933
 
 [node name="info" type="Button" parent="."]
-anchor_left = 0.614
+anchor_left = 0.637
 anchor_top = 0.021
-anchor_right = 0.764
+anchor_right = 0.787
 anchor_bottom = 0.116
-margin_left = -0.0800171
-margin_top = 0.119999
-margin_right = -0.0800171
-margin_bottom = 0.519989
+margin_left = 0.359985
+margin_top = 0.120003
+margin_right = 0.359985
+margin_bottom = 0.519974
 icon = ExtResource( 8 )
 flat = true
 expand_icon = true
@@ -79,11 +79,11 @@ expand_icon = true
 [node name="som" type="Button" parent="."]
 anchor_left = 0.794
 anchor_top = 0.025
-anchor_right = 0.951
-anchor_bottom = 0.12
-margin_left = 0.320007
-margin_right = 0.279968
-margin_bottom = 0.399994
+anchor_right = 0.965
+anchor_bottom = 0.112
+margin_left = 10.32
+margin_right = 0.199951
+margin_bottom = 0.639999
 icon = ExtResource( 7 )
 flat = true
 expand_icon = true
