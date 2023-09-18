@@ -22,12 +22,16 @@ var virarTempo = Timer.new()
 var telaVencer = preload("res://TelaVencer.tscn")
 
 func _ready():
-	Game = get_node('/root/Game')
-	if Game:
-		adicionarDeck()
-		colocarCartas()
-		configurarTempo()
-		exibir()
+    print("Esperando por Game...")
+    while Game == null:
+        yield(get_tree(), "idle_frame")
+        Game = get_node('/root/Game')
+
+    print("Game não é mais nulo. Iniciando...")
+    adicionarDeck()
+    colocarCartas()
+    configurarTempo()
+    exibir()
 
 func exibir():
 	tempoLabel = Game.get_node('painelTempo/segundos')
